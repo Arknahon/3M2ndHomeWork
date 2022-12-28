@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_M2ndHomeWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zoro" translatesAutoresizingMaskIntoConstraints="NO" id="KhX-ju-sfq">
+                                <rect key="frame" x="283" y="59" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="W5T-2H-7Wv"/>
+                                    <constraint firstAttribute="height" constant="100" id="Zbo-Oy-k9g"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vno-fg-pAB">
+                                <rect key="frame" x="15" y="179" width="67.333333333333329" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To Pump!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSy-Po-vV6">
+                                <rect key="frame" x="15" y="220" width="140" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supra" translatesAutoresizingMaskIntoConstraints="NO" id="ETl-oq-psL">
+                                <rect key="frame" x="45" y="282" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="7AB-kp-gRU"/>
+                                    <constraint firstAttribute="width" constant="150" id="ERb-5r-CWi"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sky_line" translatesAutoresizingMaskIntoConstraints="NO" id="x01-ox-5A0">
+                                <rect key="frame" x="200" y="282" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="IJV-jH-CWs"/>
+                                    <constraint firstAttribute="width" constant="150" id="Zcj-D7-flA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lexus" translatesAutoresizingMaskIntoConstraints="NO" id="Mzc-E0-uuN">
+                                <rect key="frame" x="45" y="437" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="PpM-Oc-LCI"/>
+                                    <constraint firstAttribute="width" constant="150" id="n0i-Cc-tNy"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="porsche" translatesAutoresizingMaskIntoConstraints="NO" id="P1P-DX-F8f">
+                                <rect key="frame" x="200" y="437" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="BbK-H2-7Hd"/>
+                                    <constraint firstAttribute="height" constant="150" id="TLC-TF-LBd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;   LESSON PLAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qn3-1H-voc">
+                                <rect key="frame" x="15.000000000000007" y="657" width="121.66666666666669" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR PROGRESS   &gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSF-Mq-I4K">
+                                <rect key="frame" x="233.66666666666663" y="657" width="144.33333333333337" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KhX-ju-sfq" secondAttribute="trailing" constant="10" id="0Wf-QL-Ln9"/>
+                            <constraint firstItem="Qn3-1H-voc" firstAttribute="top" secondItem="Mzc-E0-uuN" secondAttribute="bottom" constant="70" id="2t0-pF-yJg"/>
+                            <constraint firstItem="eSy-Po-vV6" firstAttribute="top" secondItem="vno-fg-pAB" secondAttribute="bottom" constant="5" id="31p-C2-zCh"/>
+                            <constraint firstItem="ETl-oq-psL" firstAttribute="top" secondItem="eSy-Po-vV6" secondAttribute="bottom" constant="20" id="5eK-D4-j5G"/>
+                            <constraint firstItem="P1P-DX-F8f" firstAttribute="top" secondItem="x01-ox-5A0" secondAttribute="bottom" constant="5" id="8I9-P2-XIH"/>
+                            <constraint firstItem="NSF-Mq-I4K" firstAttribute="top" secondItem="P1P-DX-F8f" secondAttribute="bottom" constant="70" id="CVJ-z2-Fe6"/>
+                            <constraint firstItem="KhX-ju-sfq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Eaw-pE-JNb"/>
+                            <constraint firstItem="Mzc-E0-uuN" firstAttribute="top" secondItem="ETl-oq-psL" secondAttribute="bottom" constant="5" id="HRR-2y-jbp"/>
+                            <constraint firstItem="x01-ox-5A0" firstAttribute="top" secondItem="ETl-oq-psL" secondAttribute="top" id="KDn-FT-Xbj"/>
+                            <constraint firstItem="Qn3-1H-voc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="Nij-Lc-fUG"/>
+                            <constraint firstItem="P1P-DX-F8f" firstAttribute="leading" secondItem="Mzc-E0-uuN" secondAttribute="trailing" constant="5" id="Qhy-YX-Yis"/>
+                            <constraint firstItem="eSy-Po-vV6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="Wqr-6D-vpG"/>
+                            <constraint firstItem="ETl-oq-psL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="aDT-gK-Vda"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NSF-Mq-I4K" secondAttribute="trailing" constant="15" id="lMk-Ej-cTM"/>
+                            <constraint firstItem="x01-ox-5A0" firstAttribute="leading" secondItem="ETl-oq-psL" secondAttribute="trailing" constant="5" id="qTa-dh-QDy"/>
+                            <constraint firstItem="vno-fg-pAB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="w01-AJ-Poh"/>
+                            <constraint firstItem="Mzc-E0-uuN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="wHR-wB-6gs"/>
+                            <constraint firstItem="vno-fg-pAB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="ywI-QL-Aez"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstImageView" destination="ETl-oq-psL" id="okj-KL-wZs"/>
+                        <outlet property="fourthImageView" destination="P1P-DX-F8f" id="6W1-jm-QEB"/>
+                        <outlet property="personImageView" destination="KhX-ju-sfq" id="nR6-tt-3SB"/>
+                        <outlet property="secondImageView" destination="x01-ox-5A0" id="lB3-r2-g7J"/>
+                        <outlet property="thirdImageView" destination="Mzc-E0-uuN" id="Ubo-6K-MSX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35.877862595419849" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lexus" width="2500" height="1670"/>
+        <image name="porsche" width="3817" height="2147"/>
+        <image name="sky_line" width="1024" height="768"/>
+        <image name="supra" width="835" height="835"/>
+        <image name="zoro" width="400" height="400"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
